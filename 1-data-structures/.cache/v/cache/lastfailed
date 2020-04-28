@@ -1,0 +1,5 @@
+{
+  "linked_lists_test.py::test_can_add": true,
+  "linked_lists_tests.py::test_can_add": true,
+  "linked_lists_tests.py::test_to_list": true
+}
