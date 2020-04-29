@@ -1,6 +1,9 @@
 '''
     TODO: Implement a Queue with an array.
     Remove from the end of the list (pop()) and add (insert()) at the front of the list.
+
+    enqueue: insert() --> [1,2,3,4] --> dequeue: pop()
+
 '''
 
 class Queue:
