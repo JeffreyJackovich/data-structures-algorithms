@@ -1,6 +1,6 @@
 from pytest import fixture
 
-from linked_list import LinkedList
+from single_linked_list import LinkedList
 
 
 @fixture
