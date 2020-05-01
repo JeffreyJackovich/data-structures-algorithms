@@ -6,7 +6,7 @@
 - Write more efficient code.
 
 #### Concept Schedule:
-   Data Structures:
+Data Structures:
 - [x] Linked Lists
 - [x] Stacks and Queues
 - [x] Recursion
@@ -18,4 +18,8 @@ Basic Algorithms:
 - [ ] Sorting Algorithms
 - [ ] Faster Divide and Conquer Algorithms
 
-Advanced Algorithms
+Advanced Algorithms:
+- [ ] Greedy Algorithms
+- [ ] Graph Algorithms
+- [ ] Dynamic Programming
+- [ ] A*
