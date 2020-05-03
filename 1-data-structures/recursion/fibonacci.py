@@ -13,28 +13,30 @@ f: 0, 1, 1, 2, 3, 5, 8
 '''
 def fib(n):
     '''returns the nth fib number'''
-    if n == 1 or n == 2:
-        return 1
+    if n < 2:
+        return n
     else:
-        return fib(n-1) + fib(n-2)
+        return (fib(n-1) + fib(n-2))
 
+print(fib(3))
 
-start = time.time()
-fib(10)
-stop = time.time()
-print("{} seconds".format(stop-start)) # 2.384185791015625e-05 seconds
-
-start = time.time()
-fib(20)
-stop = time.time()
-print("{} seconds".format(stop-start)) # 0.0026519298553466797 seconds
-
-start = time.time()
-fib(30)
-stop = time.time()
-print("{} seconds".format(stop-start)) # 0.33413100242614746 seconds
-
-start = time.time()
-fib(35)
-stop = time.time()
-print("{} seconds".format(stop-start)) # 3.716248035430908 seconds
+#
+# start = time.time()
+# fib(10)
+# stop = time.time()
+# print("{} seconds".format(stop-start)) # 2.384185791015625e-05 seconds
+#
+# start = time.time()
+# fib(20)
+# stop = time.time()
+# print("{} seconds".format(stop-start)) # 0.0026519298553466797 seconds
+#
+# start = time.time()
+# fib(30)
+# stop = time.time()
+# print("{} seconds".format(stop-start)) # 0.33413100242614746 seconds
+#
+# start = time.time()
+# fib(35)
+# stop = time.time()
+# print("{} seconds".format(stop-start)) # 3.716248035430908 seconds

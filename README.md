@@ -10,7 +10,7 @@ Data Structures:
 - [x] Linked Lists
 - [x] Stacks and Queues
 - [x] Recursion
-- [ ] Trees
+- [x] Trees
 - [ ] Maps and Hashing
 
 Basic Algorithms:

@@ -11,32 +11,26 @@ n: 0, 1, 2, 3, 4, 5, 6
 f: 0, 1, 1, 2, 3, 5, 8
 
 '''
-def fib(n):
-    '''returns the nth fib number'''
-    if n == 1 or n == 2:
-        return 1
+def fib(n, cache):
+    '''returns the nth term of the fib. sequence'''
+    #if cached the value, return it
+    if n in cache:
+        return cache[n]
+
+    #compute nth term
     else:
-        return fib(n-1) + fib(n-2)
+        result = (fib(n-1, cache) + fib(n-2, cache))
+        cache[n] = result
+        return result
 
-fib_cache = {1:1, 2:1}
 
 
-start = time.time()
-fib(10)
-stop = time.time()
-print("{} seconds".format(stop-start)) #  seconds
+cache = {0:1, 1:1, 2:1}
+n = 5
+# print(fib(n, cache))
 
-start = time.time()
-fib(20)
-stop = time.time()
-print("{} seconds".format(stop-start)) #  seconds
 
 start = time.time()
-fib(30)
+fib(1000, cache)
 stop = time.time()
-print("{} seconds".format(stop-start)) #  seconds
-
-start = time.time()
-fib(35)
-stop = time.time()
-print("{} seconds".format(stop-start)) #  seconds
+print("{} seconds".format(stop-start)) #  0.002521991729736328 seconds
