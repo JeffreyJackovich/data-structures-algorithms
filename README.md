@@ -11,7 +11,7 @@ Data Structures:
 - [x] Stacks and Queues
 - [x] Recursion
 - [x] Trees
-- [ ] Maps and Hashing
+- [x] Maps and Hashing
 
 Basic Algorithms:
 - [ ] Basic Algorithms
