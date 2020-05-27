@@ -6,7 +6,12 @@
 - Write more efficient code.
 
 #### Concept Schedule:
+Algorithm Efficiency:
+- [ ] Problem Solving
+- [ ] Big O
+
 Data Structures:
+- [ ] Arrays
 - [x] Linked Lists
 - [x] Stacks and Queues
 - [x] Recursion
