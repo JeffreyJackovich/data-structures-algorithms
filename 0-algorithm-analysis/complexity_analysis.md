@@ -11,14 +11,22 @@ Overall, the dominant term in the algorithm is the one used to compare different
 * 'n' is the number of elements currently in the container.
  'k' is either the value of a parameter or the number of elements in the parameter.
 
-### List:
+### list:
 Internally, a list is represented as an array; the largest costs come from growing beyond the current allocation size (because everything must move), or from inserting or deleting somewhere near the beginning (because everything after that must move). If you need to add/remove at both ends, consider using a collections.deque instead.
 
 ![List Operations](list_analysis.png)
 
 
- 
+### collections.deque:
+A deque (double-ended queue) is represented internally as a doubly linked list. (Well, a list of arrays rather than objects, for greater efficiency.) Both ends are accessible, but even looking at the middle is slow, and adding to or removing from the middle is slower still.
+![Collections-deque Operations](collections_deque.png)
 
+
+### set:
+![set operations](set_analysis.png)
+
+### dict:
+![dict operations](dict_analysis.png)
 
 
 ### References
