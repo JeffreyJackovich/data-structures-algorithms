@@ -8,10 +8,10 @@
 #### Concept Schedule:
 Algorithm Efficiency:
 - [ ] Problem Solving
-- [ ] Big O
+- [x] Big O
 
 Data Structures:
-- [ ] Arrays
+- [x] Arrays
 - [x] Linked Lists
 - [x] Stacks and Queues
 - [x] Recursion

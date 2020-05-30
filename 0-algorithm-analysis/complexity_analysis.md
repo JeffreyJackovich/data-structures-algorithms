@@ -1,10 +1,11 @@
-## Asymptotic Analysis
+## Time (Asymptotic Analysis)
 Asymptotic Analysis explains how the running time of an algorithm increases with the size of the input, in the limit, as the size of the input increases to infinity.  Order of magnitude is often called Big-O notation (for "order") and written as O(f(n)).     
 
 Specifically, the time required to solve a problem depends on the number of steps it uses.  Growth functions are used to estimate the number of steps an algorithm uses as its input grows.  Worst-case complexity is the largest number of steps needed to solve the given problem.
 
 Overall, the dominant term in the algorithm is the one used to compare different algorithms.
 
+## Space  
 
 
 ### Data Structure Operations
