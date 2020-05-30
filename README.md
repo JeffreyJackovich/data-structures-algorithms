@@ -28,3 +28,9 @@ Advanced Algorithms:
 - [ ] Graph Algorithms
 - [ ] Dynamic Programming
 - [ ] A*
+
+### References:
+
+"Data Structures and Algorithms". https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256
+
+Necaise, R. D. "Data Structures and Algorithms Using Python", https://www.academia.edu/8568181/Data_Structures_and_Algorithms_-_Rance_D._Necaise_1020
