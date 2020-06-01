@@ -1,30 +1,52 @@
 '''
 Root of Number
-Many times, we need to re-implement basic functions without using any standard library functions already implemented. For example, when designing a chip that requires very little memory space.
+Many times, we need to re-implement basic functions without using any standard library functions already implemented.
+For example, when designing a chip that requires very little memory space.
 
-In this question we’ll implement a function root that calculates the n’th root of a number. The function takes a nonnegative number x and a positive integer n, and returns the positive n’th root of x within an error of 0.001 (i.e. suppose the real root is y, then the error is: |y-root(x,n)| and must satisfy |y-root(x,n)| < 0.001).
+In this question we’ll implement a function root that calculates the n’th root of a number.
+The function takes a nonnegative number x and a positive integer n, and returns the positive n’th root of x
+within an error of 0.001 (i.e. suppose the real root is y, then the error is: |y-root(x,n)| and must satisfy
+ |y-root(x,n)| < 0.001).
 
-Don’t be intimidated by the question. While there are many algorithms to calculate roots that require prior knowledge in numerical analysis (some of them are mentioned here), there is also an elementary method which doesn’t require more than guessing-and-checking. Try to think more in terms of the latter.
+Don’t be intimidated by the question. While there are many algorithms to calculate roots that require prior
+knowledge in numerical analysis (some of them are mentioned here), there is also an elementary method which
+doesn’t require more than guessing-and-checking. Try to think more in terms of the latter.
 
 Make sure your algorithm is efficient, and analyze its time and space complexities.
 
 Examples:
-
-input:  x = 7, n = 3
+input:  a = 7, n = 3
 output: 1.913
 
-input:  x = 9, n = 2
+input:  a = 9, n = 2
 output: 3
+    2√9 is the same as 3^2
+    x^2
+
+The principal nth root of a is written as
+n√a = a^(1/n)
+
 Constraints:
 
 [time limit] 5000ms
 
-[input] float x
-
-0 ≤ x
-[input] integer n
-
-0 < n
+[input] float x 0 ≤ x
+[input] integer n 0 < n
 [output] float
-
 '''
+
+import math
+
+def root(a):
+    return math.sqrt(a)
+
+
+def nth_root(a, n):
+    '''
+
+    :param a:
+    :param n:
+    :return:
+    '''
+    #upper =
+    pass
