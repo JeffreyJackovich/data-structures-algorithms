@@ -13,7 +13,7 @@ def binary_search(a_list, target_value):
     upper_ix = len(a_list)
     lower_ix = 0
 
-    while lower_ix < upper_ix:
+    while lower_ix <= upper_ix:
 
         midpoint_ix = (upper_ix - lower_ix) // 2
 
@@ -28,9 +28,19 @@ def binary_search(a_list, target_value):
     return -1
 
 
-# a_list = [1,2,3,4,5,6,7,8,9]
-# target_value = 2
 
-a_list = [1,2,3]
-target_value = 2
-print(binary_search(a_list, target_value))
+def test_binary_search():
+    a_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    target_value = 2
+    assert binary_search(a_list, target_value) == 1
+
+    a_list = [1, 2, 3]
+    target_value = 2
+    assert binary_search(a_list, target_value) == 1
+
+    a_list = [1, 2, 3]
+    target_value = 1
+    assert binary_search(a_list, target_value) == 0
+
+
+test_binary_search()
