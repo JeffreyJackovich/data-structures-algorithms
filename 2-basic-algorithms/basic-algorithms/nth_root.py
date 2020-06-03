@@ -47,12 +47,12 @@ def root(a, n):
 
     return x
 
-# a = 7; n = 3
+a = 7; n = 3
 # output: 1.913
 #
 # a = 9; n = 2
-# print(root(a, n))
-#
+print(root(a, n))
+
 def nth_root(a, n):
     '''
 
@@ -64,8 +64,10 @@ def nth_root(a, n):
     lower = 0
     # the actual root
     y = root(a, n)
-    midpoint = (upper + lower) / 2
-    while upper >= lower:
+
+    while upper <= lower:
+
+        midpoint = (upper + lower) / 2
 
         if abs(y - midpoint) < 0.001:
             return midpoint
